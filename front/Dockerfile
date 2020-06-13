@@ -6,7 +6,4 @@ RUN npm install --global @vue/cli
 
 # WORKDIR /projects
 
-# ADD ./package.json /quiz-project/package.json
-# ADD ./start.sh /quiz-project/start.sh
-
-WORKDIR /projects/quiz-project
+WORKDIR /projects/project
