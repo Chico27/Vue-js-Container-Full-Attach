@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  front:
+    container_name: quiz-vue
+    build:
+      context: ./front
+    command: bash -c 'yarn serve'
+    volumes:
+      - ./front:/projects:cached
+    tty: true
+    ports:
+      - "8087:8087"
