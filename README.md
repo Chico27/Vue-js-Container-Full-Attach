@@ -3,5 +3,5 @@ Vue js Front Container with full attach(include TypeScript etc)
 
 in directory
 
-docker-compose build
+docker-compose build<br>
 docker-compose up -d
